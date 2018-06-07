@@ -25,6 +25,7 @@ Notes, Tips and Tricks
 - du -sh
 - df -i
 - date +%s = unix timestamp 
+- ps -aux = list all processes
 
 # SFTP
 - sftp -o "IdentityFile=keyname" some@server.com
@@ -37,9 +38,6 @@ Notes, Tips and Tricks
 view process history
 - sudo vim /var/log/syslog (ubuntu)
 - sudo vim /var/log/messages (centos)
-
-# List all processes
-- ps -aux
 
 # VIM
 - : se nu (set number) = see line numbers
