@@ -107,7 +107,8 @@ git branch --set-upstream-to=origin/<branch>
 
 # Crontab
 as root view other user crontabs:
-$ crontab -l -u <user>
+
+$ crontab -l -u "user"
 
 # Links to docs and tutorials
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/set-time.html
