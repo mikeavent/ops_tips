@@ -103,6 +103,12 @@ or
 
 git branch --set-upstream-to=origin/<branch>
 
+# Reset to a specific branch
+$ git reset --hard "commit_number"
+
+# Force push to origin
+$ git push origin +"branch"
+
 # Crontab
 as root view other user crontabs:
 
