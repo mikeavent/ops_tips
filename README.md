@@ -26,6 +26,7 @@ Notes, Tips and Tricks
 - df -i
 - date +%s = unix timestamp 
 - ps -aux = list all processes
+- grep -v grep | grep something
 
 # SFTP
 - sftp -o "IdentityFile=keyname" some@server.com
@@ -47,6 +48,9 @@ view process history
 - : set nopaste = go back to normal
 - : / "keyword" n to go to next
 - : se ru (set ruler = line number, column number (and more)
+- : colorscheme TAB (: colo TAB) = tab through various colour schemes
+- : d w = deletes from current cursor to the beginning of next word
+- : d $ (or D) = will delete from the current cursor posistion to the end of the line
 
 # Docker
 docker ps -a = view docker containers on instance
